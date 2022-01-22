@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Header() {
 	return (
 		<header className="container fixed top-0 w-full text-white text-xl font-medium">
-			<div className="container flex justify-around items-center h-16 md:h-32 mx-auto">
+			<div className="container flex justify-between items-center h-16 md:h-32 mx-auto px-12">
 				<a href="#" aria-label="Back to homepage" className="flex items-center w-52">
 					<Image src={"/logo_NeuralAI_copy.png"} width={"900px"} height={"300px"} />
 				</a>
