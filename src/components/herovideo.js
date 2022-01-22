@@ -13,12 +13,12 @@ export default function HeroVideo() {
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 					frameborder="0"
 				/> */}
-				<video autoPlay muted loop className="object-cover h-full w-full">
+				<video autoPlay muted loop playsInline loading="lazy" className="object-cover h-full w-full">
 					<source src="/bannervideo.mp4" type="video/mp4" />
 				</video>
 			</div>
 			<div className="relative flex flex-col h-full w-full items-center justify-center">
-				<Image src={"/logo_NeuralAI_copy.png"} width={"900px"} height={"300px"} />
+				<Image priority src={"/logo_NeuralAI_copy.png"} width={"900px"} height={"300px"} />
 				<h1 className="text-white text-4xl font-bold tracking-wider">DTU's First AI Society</h1>
 			</div>
 		</div>
